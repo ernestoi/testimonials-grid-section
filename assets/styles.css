@@ -77,6 +77,7 @@ body{
 .daniel{
     background-color: var(--background-morado);
     position: relative;
+    margin-top: 3rem;
 }
 .daniel .marca-de-agua{
     display: none;
