@@ -18,9 +18,10 @@
     --color-gris-parrafo: #84878d;
     --color-gris-mucho-mas-claro: #d9dbe0;
 }
-
-body{
+html{
     font-size: 62.5%;
+}
+body{
     background-color: var(--background-piel);
     font-family: 'Heebo', serif;
 }
