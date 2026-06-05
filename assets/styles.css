@@ -47,16 +47,6 @@ body{
     align-items: center;
     gap: 1.5rem;
     margin-bottom: 1rem;
-    position: relative;
-}
-.testimonial-user .marca-de-agua{
-    position: absolute;
-    right: 2rem;
-    top: 0;
-    color:var(rgba(150, 103, 226, 0.5))
-}
-.testimonial-user .marca-de-agua img{
-    color:var(rgba(150, 103, 226, 0.5))
 }
 .testimonial-user .image-user{
     width: 3rem;
@@ -86,6 +76,10 @@ body{
 /* CONFIGURACIÓN PARA CADA USUARIO*/
 .daniel{
     background-color: var(--background-morado);
+    position: relative;
+}
+.daniel .marca-de-agua{
+    display: none;
 }
 .daniel .user-topContent{
     color: var(--color-lila-claro);
@@ -167,6 +161,18 @@ body{
         display: flex;
         align-items:center;
         justify-content: center;
+    }
+    .daniel{
+    position: relative;
+    }
+    .daniel .marca-de-agua{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 3rem;
+    }
+    .daniel .marca-de-agua img{
+        opacity: 0.3;
     }
     .testimonial-user{
         width: auto;
