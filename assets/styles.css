@@ -18,10 +18,9 @@
     --color-gris-parrafo: #84878d;
     --color-gris-mucho-mas-claro: #d9dbe0;
 }
-html{
-    font-size: 62.5%;
-}
+
 body{
+    font-size: 62.5%;
     background-color: var(--background-piel);
     font-family: 'Heebo', serif;
 }
@@ -46,6 +45,12 @@ body{
     align-items: center;
     gap: 1.5rem;
     margin-bottom: 1rem;
+    position: relative;
+}
+.testimonial-user .marca-de-agua{
+    position: absolute;
+    right: 2rem;
+    top: 0;
 }
 .testimonial-user .image-user{
     width: 3rem;
